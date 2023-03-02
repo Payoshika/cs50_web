@@ -8,9 +8,12 @@
     <body>
         <div class="container">
             <div class="row">
-                <div class="d-flex flex-row justify-content-end">
-                    <div class="d-flex flex-column align-items-center"">
-                        <p>
+                <div class="d-flex flex-row justify-content-between">
+                    <div>
+                        <h3 class="text-whit">Google</h3>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <p class="mx-3">
                             <a href="index.html">Simple Search</a>
                         </p>
                         <p>
@@ -21,29 +24,30 @@
             </div>
         </div>
         <div class="container">
-            <div class="row">
+            <div class="row w-75">
                 <div class="col d-flex flex-column flex-fill">
-                    <h1>Google</h1>
-                    <p class="text-center">Advanced Search</p>
-                    <p class="text-center">Find pages with...</p>
+                    <h4 class="advance-search-heading">Advanced Search</h4>
+                    <hr>
+                    <p class="text-left">Find pages with...</p>
                     <form action="https://google.com/search">
-                        <div class="d-flex justify-content-center">
+                        <div class="d-flex justify-content-start">
                             <p class="advance-search-title">all these words:</p>
                             <input type="text" name="as_q"  class="advanced-search-engine w-100">
                         </div>
-                        <div class="d-flex justify-content-center">
+                        <div class="d-flex justify-content-start">
                             <p class="advance-search-title">this exact word or phrase:</p>
                             <input type="text" name="as_epq"  class="advanced-search-engine w-100">
                         </div>
-                        <div class="d-flex justify-content-center">
+                        <div class="d-flex justify-content-start">
                             <p class="advance-search-title">any of these words:</p>
                             <input type="text" name="as_oq"  class="advanced-search-engine w-100">
                         </div>
-                        <div class="d-flex justify-content-center">
+                        <div class="d-flex justify-content-start">
                             <p class="advance-search-title">none of these words:</p>
                             <input type="text" name="as_eq"  class="advanced-search-engine w-100">
                         </div>
-                        <div class="d-flex justify-content-center">
+                        <div class="d-flex justify-content-end">
+                            <p class="advance-search-title"></p>
                             <input type="submit" value="Advanced Search" class="advance-btn">
                         </div>
                     </form>

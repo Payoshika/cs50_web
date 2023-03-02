@@ -18,7 +18,7 @@ a:hover {
 }
 
 .advance-search-title {
-  width: 100px;
+  width: 150px;
 }
 
 .search-engine {
@@ -52,4 +52,12 @@ a:hover {
 
 .search-btn:hover {
   border-color: black;
+}
+
+.advance-search-heading {
+  color: rgb(242, 139, 130);
+}
+
+.google-search-icon {
+  max-width: 400px;
 }/*# sourceMappingURL=style.css.map */
