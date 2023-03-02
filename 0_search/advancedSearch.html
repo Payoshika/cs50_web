@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="d-flex flex-row justify-content-end">
+                    <div class="d-flex flex-column align-items-center"">
+                        <p>
+                            <a href="index.html">Simple Search</a>
+                        </p>
+                        <p>
+                            <a href="imageSearch.html">image Search</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col d-flex flex-column flex-fill">
+                    <h1>Google</h1>
+                    <p class="text-center">Advanced Search</p>
+                    <p class="text-center">Find pages with...</p>
+                    <form action="https://google.com/search">
+                        <div class="d-flex justify-content-center">
+                            <p class="advance-search-title">all these words:</p>
+                            <input type="text" name="as_q"  class="advanced-search-engine w-100">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <p class="advance-search-title">this exact word or phrase:</p>
+                            <input type="text" name="as_epq"  class="advanced-search-engine w-100">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <p class="advance-search-title">any of these words:</p>
+                            <input type="text" name="as_oq"  class="advanced-search-engine w-100">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <p class="advance-search-title">none of these words:</p>
+                            <input type="text" name="as_eq"  class="advanced-search-engine w-100">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <input type="submit" value="Advanced Search" class="advance-btn">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
